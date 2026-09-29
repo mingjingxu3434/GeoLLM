@@ -1,0 +1,16 @@
+{
+  "Barcelona": {
+    "buildings": "data/raw/barcelona/eubucco.gpkg",
+    "wsf_fraction": "data/raw/barcelona/wsf3d_fraction.tif",
+    "wsf_height": "data/raw/barcelona/wsf3d_height.tif",
+    "wsf_volume": "data/raw/barcelona/wsf3d_volume.tif",
+    "worldpop_total": "data/raw/barcelona/worldpop_total.tif",
+    "worldpop_65plus": "data/raw/barcelona/worldpop_65plus.tif"
+  },
+  "Rotterdam": {
+    "buildings": "data/raw/rotterdam/eubucco.gpkg"
+  },
+  "Vienna": {
+    "buildings": "data/raw/vienna/eubucco.gpkg"
+  }
+}
