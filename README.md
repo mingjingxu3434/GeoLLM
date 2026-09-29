@@ -1,7 +1,4 @@
-# CARE GeoLLM — Python reproduction project
 
-A modular PyTorch implementation of the CARE GeoLLM method described in the supplied manuscript.
-The repository separates **method reproduction**, **real geospatial preprocessing**, and **experiment reproduction** so that the model can be tested immediately while real city data remain versioned and replaceable.
 
 ## 1. What is implemented
 
@@ -278,18 +275,3 @@ factual GeoTransformer | `GeoTransformer(..., modulation=None)`
 counterfactual GeoTransformer | localized low-rank modulation in `CAREGeoLLM`
 `DeltaY <- YP-Y0` | `CAREGeoLLM.forward`
 `I90 <- ConformalCalibrate(...)` | `ConformalCalibrator`
-
-## 15. Notes for publication-quality reproduction
-
-Before claiming numerical reproduction of the manuscript tables, freeze and publish:
-- exact source file versions and timestamps;
-- exact city/community polygons;
-- CRS transformations;
-- feature dictionary hash;
-- treatment/intervention dictionary;
-- intervention labels and outcome derivation;
-- adjacency/path construction;
-- five random seeds;
-- official external baseline checkpoints and embedding extraction settings.
-
-This repository is structured so those components can be added without changing the central CARE GeoLLM model.
