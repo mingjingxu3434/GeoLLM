@@ -1,0 +1,4 @@
+﻿City,CARE_GeoLLM_transfer_R_squared,AnySat_transfer_R_squared,UrbanCLIP_transfer_R_squared
+Barcelona,0.888,0.847,0.831
+Rotterdam,0.901,0.859,0.844
+Vienna,0.879,0.838,0.823

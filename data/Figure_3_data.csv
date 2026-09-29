@@ -1,0 +1,28 @@
+﻿Method,City,R_squared,Mean_absolute_error
+GraphGPS,Barcelona,0.842,0.083
+GraphGPS,Rotterdam,0.851,0.079
+GraphGPS,Vienna,0.836,0.086
+SatMAE,Barcelona,0.856,0.078
+SatMAE,Rotterdam,0.863,0.075
+SatMAE,Vienna,0.849,0.081
+Scale MAE,Barcelona,0.867,0.074
+Scale MAE,Rotterdam,0.875,0.071
+Scale MAE,Vienna,0.861,0.077
+UrbanCLIP,Barcelona,0.882,0.069
+UrbanCLIP,Rotterdam,0.889,0.066
+UrbanCLIP,Vienna,0.877,0.071
+RemoteCLIP,Barcelona,0.876,0.071
+RemoteCLIP,Rotterdam,0.884,0.068
+RemoteCLIP,Vienna,0.87,0.074
+GeoChat,Barcelona,0.887,0.067
+GeoChat,Rotterdam,0.895,0.064
+GeoChat,Vienna,0.883,0.069
+UrbanLLM,Barcelona,0.871,0.072
+UrbanLLM,Rotterdam,0.879,0.07
+UrbanLLM,Vienna,0.866,0.075
+AnySat,Barcelona,0.894,0.064
+AnySat,Rotterdam,0.903,0.061
+AnySat,Vienna,0.89,0.066
+CARE GeoLLM,Barcelona,0.926,0.052
+CARE GeoLLM,Rotterdam,0.934,0.048
+CARE GeoLLM,Vienna,0.919,0.055

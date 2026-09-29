@@ -1,0 +1,6 @@
+﻿Corruption_percent,CARE_GeoLLM_R_squared,AnySat_R_squared,UrbanCLIP_R_squared
+0,0.926,0.894,0.882
+5,0.92,0.883,0.869
+10,0.912,0.868,0.852
+20,0.898,0.842,0.824
+30,0.879,0.811,0.788

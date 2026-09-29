@@ -1,0 +1,6 @@
+﻿Variant,R_squared
+Full model,0.926
+No language operator,0.901
+No causal consistency,0.89
+Static graph attention,0.882
+No uncertainty head,0.917
